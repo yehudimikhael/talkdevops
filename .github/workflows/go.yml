@@ -28,7 +28,7 @@ jobs:
       run: go test -v ./...
     
     - name: Download Binario
-      run: wget https://github.com/yehudimikhael/talkdevops/releases/download/untagged-29f4ed1480c25909172a/talkdevops
+      run: wget https://github.com/yehudimikhael/talkdevops/releases/download/Release-v1/talkdevopss
       
     - name: Run Load Test
       run: ./talkdevops
